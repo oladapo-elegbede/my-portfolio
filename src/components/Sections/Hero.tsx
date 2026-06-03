@@ -35,7 +35,7 @@ const Hero = () => {
           </motion.p>
 
           <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{delay: 0.6}} style={{display: 'flex', gap: '10px', marginBottom: '28px'}}>
-            <a href="https://github.com/elegbedeoladapo-hash" target="_blank" rel="noreferrer" style={{width: '42px', height: '42px', borderRadius: '50%', border: '1px solid #ddd', display: 'flex', alignItems: 'center', justifyContent: 'center', textDecoration: 'none', color: '#333', background: 'white', boxShadow: '0 2px 8px rgba(0,0,0,0.08)'}}>
+            <a href="https://github.com/oladapo-elegbede" target="_blank" rel="noreferrer" style={{width: '42px', height: '42px', borderRadius: '50%', border: '1px solid #ddd', display: 'flex', alignItems: 'center', justifyContent: 'center', textDecoration: 'none', color: '#333', background: 'white', boxShadow: '0 2px 8px rgba(0,0,0,0.08)'}}>
               <FiGithub size={18} />
             </a>
             <a href="https://linkedin.com/in/oladapo-elegbede" target="_blank" rel="noreferrer" style={{width: '42px', height: '42px', borderRadius: '50%', border: '1px solid #ddd', display: 'flex', alignItems: 'center', justifyContent: 'center', textDecoration: 'none', color: '#333', background: 'white', boxShadow: '0 2px 8px rgba(0,0,0,0.08)'}}>

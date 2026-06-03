@@ -5,7 +5,7 @@ export const projects = [
     description: "A fullstack SaaS tool that audits AI tool spending for startups and shows exactly where they're overspending. Features a real audit engine, Supabase backend, transactional email via Resend, AI-generated summaries via Anthropic API, and shareable audit URLs. Built as a lead-generation tool for Credex.",
     technologies: ["Next.js", "TypeScript", "Supabase", "Anthropic API", "Resend", "Tailwind CSS"],
     liveUrl: "https://stacksavings.vercel.app",
-    githubUrl: "https://github.com/elegbedeoladapo-hash/stacksavings",
+    githubUrl: "https://github.com/oladapo-elegbede/stacksavings",
     icon: "💰"
   },
   {
@@ -14,7 +14,7 @@ export const projects = [
     description: "A responsive food ordering platform with real-time cart and payment integration.",
     technologies: ["HTML5", "CSS3", "JavaScript"],
     liveUrl: "https://foodlandng.netlify.app",
-    githubUrl: "https://github.com/elegbedeoladapo-hash/foodlanding",
+    githubUrl: "https://github.com/oladapo-elegbede/foodlanding",
     icon: "🍔"
   },
   {
@@ -23,7 +23,7 @@ export const projects = [
     description: "A cryptocurrency trading dashboard with wallet-style UI.",
     technologies: ["HTML5", "CSS3", "JavaScript"],
     liveUrl: "https://crytotrading.netlify.app",
-    githubUrl: "https://github.com/elegbedeoladapo-hash/crytotrading",
+    githubUrl: "https://github.com/oladapo-elegbede/crytotrading",
     icon: "₿"
   },
   {
@@ -32,7 +32,7 @@ export const projects = [
     description: "A full multi-section business agency website with animations.",
     technologies: ["HTML5", "CSS3", "JavaScript"],
     liveUrl: "https://businesssolutiona.netlify.app",
-    githubUrl: "https://github.com/elegbedeoladapo-hash/businesssolution",
+    githubUrl: "https://github.com/oladapo-elegbede/businesssolution",
     icon: "💼"
   }
 ]

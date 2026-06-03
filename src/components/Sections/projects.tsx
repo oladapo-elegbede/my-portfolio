@@ -15,7 +15,7 @@ const projects = [
       'Achieved Lighthouse mobile scores of 90 Performance, 94 Accessibility, 100 Best Practices, 100 SEO',
     ],
     live: 'https://stacksavings.vercel.app',
-    github: 'https://github.com/elegbedeoladapo-hash/stacksavings',
+    github: 'https://github.com/oladapo-elegbede/stacksavings',
     featured: true,
   },
 
@@ -33,7 +33,7 @@ const projects = [
       'Designed premium dark-themed UI with smooth scroll animations and professional automotive aesthetic',
     ],
     live: 'https://365automotive.vercel.app',
-    github: 'https://github.com/elegbedeoladapo-hash/Automative365',
+    github: 'https://github.com/oladapo-elegbede/Automative365',
     featured: false,
   },
   {
@@ -49,7 +49,7 @@ const projects = [
       'Designed mobile-first responsive layout using CSS Flexbox and Grid for all screen sizes',
     ],
     live: 'https://foodlandng.netlify.app',
-    github: 'https://github.com/elegbedeoladapo-hash/foodlanding',
+    github: 'https://github.com/oladapo-elegbede/foodlanding',
     featured: false,
   },
   {
@@ -65,7 +65,7 @@ const projects = [
       'Created smooth animations and hover transitions throughout the application',
     ],
     live: 'https://crytotrading.netlify.app',
-    github: 'https://github.com/elegbedeoladapo-hash/crytotrading',
+    github: 'https://github.com/oladapo-elegbede/crytotrading',
     featured: false,
   },
   {
@@ -81,7 +81,7 @@ const projects = [
       'Created testimonials section and fully functional contact form with validation',
     ],
     live: 'https://businesssolutiona.netlify.app',
-    github: 'https://github.com/elegbedeoladapo-hash/businesssolution',
+    github: 'https://github.com/oladapo-elegbede/businesssolution',
     featured: false,
   },
 ]
