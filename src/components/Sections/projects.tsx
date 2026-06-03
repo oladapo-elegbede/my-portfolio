@@ -5,12 +5,12 @@ const projects = [
   {
     id: 1,
     title: 'StackSavings — AI Spend Audit Tool',
-    role: 'Fullstack Developer',
-    description: 'A fullstack SaaS tool that audits AI tool spending for startups and shows exactly where they are overspending. Features a real audit engine, Supabase backend, transactional email via Resend, AI-generated summaries via Anthropic API, and shareable audit URLs with Open Graph previews. Built as a lead-generation tool for Credex.',
+    role: 'Full-Stack Developer · SaaS Product',
+    description: 'A production SaaS that audits AI tool spending for startups and pinpoints exactly where they are overspending. Features a real audit engine, Supabase backend, transactional emails via Resend, AI-generated summaries via Anthropic API, and shareable audit URLs with Open Graph previews. Built as a lead-generation product for Credex.',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
     tags: ['Next.js', 'TypeScript', 'Supabase', 'Anthropic API', 'Resend', 'Tailwind CSS'],
     points: [
-      'Built a complete fullstack product in 7 days — audit engine, Supabase database, transactional email, AI summary, and shareable URLs all working end-to-end',
+      'Shipped a complete full-stack product in 7 days — audit engine, database, transactional email, AI summaries, and shareable URLs all working end-to-end',
       'Integrated Anthropic API for AI-generated personalized audit summaries with graceful fallback to templated summaries',
       'Achieved Lighthouse mobile scores of 90 Performance, 94 Accessibility, 100 Best Practices, 100 SEO',
     ],
@@ -18,35 +18,17 @@ const projects = [
     github: 'https://github.com/oladapo-elegbede/stacksavings',
     featured: true,
   },
-
-
   {
     id: 2,
-    title: '363 Car & Social Club',
-    role: 'Frontend Developer',
-    description: 'A premium luxury automotive club website with membership tiers, video hero background, contact form, login and signup pages. Built for car enthusiasts with a sleek dark design and smooth animations throughout.',
-    image: 'https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800&q=80',
-    tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'Vercel'],
-    points: [
-      'Built a multi-page luxury website with video hero background, membership tiers ($2,500–$10,000/month), and full navigation',
-      'Implemented contact form, login and signup pages with clean responsive layout across all screen sizes',
-      'Designed premium dark-themed UI with smooth scroll animations and professional automotive aesthetic',
-    ],
-    live: 'https://365automotive.vercel.app',
-    github: 'https://github.com/oladapo-elegbede/Automative365',
-    featured: false,
-  },
-  {
-    id: 2,
-    title: 'Food Ordering Landing Page',
-    role: 'Frontend Developer',
-    description: 'A fully responsive food ordering platform with real-time cart functionality and payment integration via bank card and bank transfer. Built with vanilla JavaScript with mobile first responsive design.',
+    title: 'FoodLand — Restaurant Ordering Platform',
+    role: 'Frontend Developer · E-commerce',
+    description: 'A responsive food ordering platform with real-time cart functionality and integrated payment options including bank card and bank transfer. Built with vanilla JavaScript using a mobile-first responsive design approach.',
     image: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80',
-    tags: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design'],
+    tags: ['JavaScript', 'HTML5', 'CSS3', 'Responsive Design'],
     points: [
-      'Built real-time cart functionality with vanilla JavaScript without any frameworks or libraries',
-      'Implemented payment flow supporting bank card and bank transfer options',
-      'Designed mobile-first responsive layout using CSS Flexbox and Grid for all screen sizes',
+      'Built real-time cart functionality from scratch with vanilla JavaScript — no frameworks or libraries',
+      'Implemented complete payment flow supporting bank card and bank transfer options',
+      'Designed mobile-first responsive layout using CSS Flexbox and Grid for seamless cross-device experience',
     ],
     live: 'https://foodlandng.netlify.app',
     github: 'https://github.com/oladapo-elegbede/foodlanding',
@@ -54,15 +36,15 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Demo Bitcoin Project',
-    role: 'Frontend Developer',
-    description: 'A responsive cryptocurrency trading dashboard with wallet-style UI and real-time price display. Features a professional dark themed modern interface with smooth animations.',
+    title: 'CryptoTrade — Trading Dashboard',
+    role: 'Frontend Developer · Fintech UI',
+    description: 'A polished cryptocurrency trading dashboard featuring a wallet-style interface, market data sections, and a professional dark-themed design inspired by modern fintech applications. Built with attention to UX, hierarchy, and smooth interactions.',
     image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&q=80',
-    tags: ['HTML5', 'CSS3', 'JavaScript', 'Dark Theme'],
+    tags: ['JavaScript', 'HTML5', 'CSS3', 'UI Design'],
     points: [
-      'Built wallet-style UI with real-time cryptocurrency price display sections',
-      'Implemented professional dark themed dashboard interface with modern design',
-      'Created smooth animations and hover transitions throughout the application',
+      'Designed a wallet-style UI with structured price display sections and market data visualization',
+      'Crafted a professional dark-themed dashboard interface with modern fintech aesthetics',
+      'Implemented smooth hover transitions and micro-animations throughout the application',
     ],
     live: 'https://crytotrading.netlify.app',
     github: 'https://github.com/oladapo-elegbede/crytotrading',
@@ -70,15 +52,15 @@ const projects = [
   },
   {
     id: 4,
-    title: 'Business Solution Agency',
-    role: 'Frontend Developer',
-    description: 'A full multi-section business agency website with scroll animations, responsive navigation, portfolio gallery, testimonials and contact form. Clean professional design.',
+    title: 'Business Agency Website',
+    role: 'Frontend Developer · Corporate Site',
+    description: 'A multi-section corporate agency website featuring smooth scroll animations, responsive navigation, portfolio gallery, testimonials, and a working contact form with validation. Clean, conversion-focused design with attention to typography and spacing.',
     image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80',
-    tags: ['HTML5', 'CSS3', 'JavaScript', 'Animations'],
+    tags: ['JavaScript', 'HTML5', 'CSS3', 'Animations'],
     points: [
-      'Built multi-section agency website with smooth scroll animations throughout',
-      'Implemented fully responsive navigation menu and portfolio gallery section',
-      'Created testimonials section and fully functional contact form with validation',
+      'Built a multi-section agency website with smooth scroll-triggered animations throughout',
+      'Implemented fully responsive navigation menu and visual portfolio gallery section',
+      'Created a testimonials section and fully functional contact form with client-side validation',
     ],
     live: 'https://businesssolutiona.netlify.app',
     github: 'https://github.com/oladapo-elegbede/businesssolution',
@@ -92,8 +74,9 @@ const Projects = () => {
       <div style={{maxWidth: '900px', margin: '0 auto'}}>
 
         <motion.div initial={{opacity: 0, y: 20}} whileInView={{opacity: 1, y: 0}} transition={{duration: 0.6}} viewport={{once: true}} style={{marginBottom: '60px'}}>
-          <h2 style={{color: '#1a1a1a', fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '12px'}}>Featured Work</h2>
-          <p style={{color: '#666', fontSize: '1.1rem'}}>Selected projects that define my development journey.</p>
+          <p style={{color: '#c8956c', fontWeight: '600', marginBottom: '10px', fontSize: '1rem'}}>Selected Work</p>
+          <h2 style={{color: '#1a1a1a', fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '12px'}}>Featured Projects</h2>
+          <p style={{color: '#666', fontSize: '1.1rem'}}>Real products built end-to-end — from concept to deployment.</p>
         </motion.div>
 
         <div style={{display: 'flex', flexDirection: 'column', gap: '40px'}}>

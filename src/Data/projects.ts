@@ -2,37 +2,42 @@ export const projects = [
   {
     id: 1,
     title: "StackSavings — AI Spend Audit Tool",
-    description: "A fullstack SaaS tool that audits AI tool spending for startups and shows exactly where they're overspending. Features a real audit engine, Supabase backend, transactional email via Resend, AI-generated summaries via Anthropic API, and shareable audit URLs. Built as a lead-generation tool for Credex.",
+    description: "A production SaaS that audits AI tool spending for startups and pinpoints overspending. Built end-to-end with a real audit engine, Supabase backend, transactional emails via Resend, AI-generated summaries via Anthropic API, and shareable audit reports. Designed as a lead-generation product for Credex.",
     technologies: ["Next.js", "TypeScript", "Supabase", "Anthropic API", "Resend", "Tailwind CSS"],
     liveUrl: "https://stacksavings.vercel.app",
     githubUrl: "https://github.com/oladapo-elegbede/stacksavings",
-    icon: "💰"
+    icon: "💰",
+    featured: true,
+    category: "SaaS Product"
   },
   {
     id: 2,
-    title: "Food Ordering Landing Page",
-    description: "A responsive food ordering platform with real-time cart and payment integration.",
-    technologies: ["HTML5", "CSS3", "JavaScript"],
+    title: "FoodLand — Restaurant Ordering Platform",
+    description: "A responsive food ordering interface with an interactive menu, real-time cart management, and a streamlined checkout flow. Designed for fast browsing and mobile-first ordering experiences.",
+    technologies: ["JavaScript", "HTML5", "CSS3", "Responsive Design"],
     liveUrl: "https://foodlandng.netlify.app",
     githubUrl: "https://github.com/oladapo-elegbede/foodlanding",
-    icon: "🍔"
+    icon: "🍔",
+    category: "Frontend Project"
   },
   {
     id: 3,
-    title: "Demo Bitcoin Project",
-    description: "A cryptocurrency trading dashboard with wallet-style UI.",
-    technologies: ["HTML5", "CSS3", "JavaScript"],
+    title: "CryptoTrade — Trading Dashboard UI",
+    description: "A cryptocurrency trading dashboard featuring a clean wallet-style interface, market data visualization, and a polished user experience inspired by modern fintech apps.",
+    technologies: ["JavaScript", "HTML5", "CSS3", "UI Design"],
     liveUrl: "https://crytotrading.netlify.app",
     githubUrl: "https://github.com/oladapo-elegbede/crytotrading",
-    icon: "₿"
+    icon: "₿",
+    category: "Frontend Project"
   },
   {
     id: 4,
-    title: "Business Solution Agency",
-    description: "A full multi-section business agency website with animations.",
-    technologies: ["HTML5", "CSS3", "JavaScript"],
+    title: "Business Agency Website",
+    description: "A multi-section corporate website featuring smooth scroll animations, service showcases, and conversion-focused CTAs. Built with attention to layout, typography, and mobile responsiveness.",
+    technologies: ["JavaScript", "HTML5", "CSS3", "Animations"],
     liveUrl: "https://businesssolutiona.netlify.app",
     githubUrl: "https://github.com/oladapo-elegbede/businesssolution",
-    icon: "💼"
+    icon: "💼",
+    category: "Frontend Project"
   }
 ]

@@ -2,57 +2,65 @@ import { motion } from 'framer-motion'
 
 const skillCategories = [
   {
-    title: 'Frontend Frameworks',
+    title: 'Core Stack',
+    subtitle: 'What I build with daily',
     skills: [
-      { name: 'React', level: 85, icon: '⚛️' },
-      { name: 'Next.js', level: 80, icon: '▲' },
-      { name: 'Angular', level: 75, icon: '🅰️' },
-      { name: 'Vue.js', level: 70, icon: '💚' },
-    ]
-  },
-  {
-    title: 'Languages',
-    skills: [
-      { name: 'JavaScript', level: 90, icon: '📜' },
-      { name: 'TypeScript', level: 80, icon: '🔷' },
-      { name: 'HTML5', level: 95, icon: '🌐' },
-      { name: 'CSS3', level: 95, icon: '🎨' },
+      { name: 'React', icon: '⚛️' },
+      { name: 'Next.js', icon: '▲' },
+      { name: 'TypeScript', icon: '🔷' },
+      { name: 'JavaScript', icon: '📜' },
+      { name: 'Node.js', icon: '🟢' },
+      { name: 'Tailwind CSS', icon: '🎯' },
     ]
   },
   {
     title: 'Backend & Database',
+    subtitle: 'How I handle data',
     skills: [
-      { name: 'Node.js', level: 70, icon: '🟢' },
-      { name: 'Supabase', level: 75, icon: '⚡' },
-      { name: 'REST APIs', level: 80, icon: '🔌' },
-      { name: 'PostgreSQL', level: 65, icon: '🐘' },
+      { name: 'Supabase', icon: '⚡' },
+      { name: 'PostgreSQL', icon: '🐘' },
+      { name: 'REST APIs', icon: '🔌' },
+      { name: 'Authentication', icon: '🔐' },
     ]
   },
   {
     title: 'Styling & UI',
+    subtitle: 'How I craft interfaces',
     skills: [
-      { name: 'Tailwind CSS', level: 85, icon: '🎯' },
-      { name: 'Framer Motion', level: 75, icon: '🎭' },
-      { name: 'Responsive Design', level: 95, icon: '📱' },
-      { name: 'CSS Flexbox & Grid', level: 95, icon: '📐' },
+      { name: 'Tailwind CSS', icon: '🎯' },
+      { name: 'Framer Motion', icon: '🎭' },
+      { name: 'Responsive Design', icon: '📱' },
+      { name: 'Shadcn UI', icon: '✨' },
     ]
   },
   {
     title: 'Tools & DevOps',
+    subtitle: 'How I ship code',
     skills: [
-      { name: 'Git & GitHub', level: 85, icon: '🔧' },
-      { name: 'Vercel & Netlify', level: 90, icon: '🚀' },
-      { name: 'CI/CD', level: 75, icon: '⚙️' },
-      { name: 'VS Code', level: 95, icon: '💻' },
+      { name: 'Git & GitHub', icon: '🔧' },
+      { name: 'Vercel', icon: '🚀' },
+      { name: 'Netlify', icon: '🌐' },
+      { name: 'VS Code', icon: '💻' },
     ]
   },
   {
     title: 'Integrations',
+    subtitle: 'APIs I work with',
     skills: [
-      { name: 'Anthropic API', level: 70, icon: '🤖' },
-      { name: 'Resend (Email)', level: 75, icon: '📧' },
-      { name: 'EmailJS', level: 80, icon: '✉️' },
-      { name: 'OpenAI API', level: 65, icon: '🧠' },
+      { name: 'OpenAI API', icon: '🧠' },
+      { name: 'Anthropic API', icon: '🤖' },
+      { name: 'Resend (Email)', icon: '📧' },
+      { name: 'EmailJS', icon: '✉️' },
+    ]
+  },
+  {
+    title: 'Currently Learning',
+    subtitle: 'Always growing',
+    skills: [
+      { name: 'Prisma', icon: '🔺' },
+      { name: 'tRPC', icon: '🔗' },
+      { name: 'Testing (Vitest)', icon: '🧪' },
+      { name: 'Docker', icon: '🐳' },
     ]
   },
 ]
@@ -65,9 +73,9 @@ const Skills = () => {
       <div style={{maxWidth: '1100px', margin: '0 auto'}}>
 
         <motion.div initial={{opacity: 0, y: 20}} whileInView={{opacity: 1, y: 0}} transition={{duration: 0.6}} viewport={{once: true}} style={{marginBottom: '40px', textAlign: 'center'}}>
-          <p style={{color: '#c8956c', fontWeight: '600', marginBottom: '10px', fontSize: '1rem'}}>What I Know</p>
+          <p style={{color: '#c8956c', fontWeight: '600', marginBottom: '10px', fontSize: '1rem'}}>My Toolkit</p>
           <h2 style={{color: '#1a1a1a', fontSize: isMobile ? '1.8rem' : '2.2rem', fontWeight: 'bold', marginBottom: '10px'}}>Skills & Technologies</h2>
-          <p style={{color: '#666', fontSize: '0.95rem', maxWidth: '500px', margin: '0 auto'}}>Technologies and tools I use to build complete fullstack products.</p>
+          <p style={{color: '#666', fontSize: '0.95rem', maxWidth: '500px', margin: '0 auto'}}>The technologies I use to build modern, production-ready web applications.</p>
         </motion.div>
 
         <div style={{display: 'grid', gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr', gap: '20px'}}>
@@ -80,28 +88,37 @@ const Skills = () => {
               viewport={{once: true}}
               style={{background: 'white', borderRadius: '20px', padding: '24px'}}
             >
-              <h3 style={{color: '#1a1a1a', fontSize: '1rem', fontWeight: '700', marginBottom: '20px', paddingBottom: '10px', borderBottom: '2px solid #f5f0eb'}}>
-                {category.title}
-              </h3>
-              <div style={{display: 'flex', flexDirection: 'column', gap: '14px'}}>
+              <div style={{marginBottom: '20px', paddingBottom: '14px', borderBottom: '2px solid #f5f0eb'}}>
+                <h3 style={{color: '#1a1a1a', fontSize: '1.05rem', fontWeight: '700', marginBottom: '4px'}}>
+                  {category.title}
+                </h3>
+                <p style={{color: '#999', fontSize: '0.8rem', fontWeight: '500'}}>
+                  {category.subtitle}
+                </p>
+              </div>
+              <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
                 {category.skills.map((skill, skillIndex) => (
-                  <motion.div key={skill.name} initial={{opacity: 0, x: -20}} whileInView={{opacity: 1, x: 0}} transition={{duration: 0.5, delay: skillIndex * 0.1}} viewport={{once: true}}>
-                    <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '6px'}}>
-                      <div style={{display: 'flex', alignItems: 'center', gap: '8px'}}>
-                        <span style={{fontSize: '1.1rem'}}>{skill.icon}</span>
-                        <span style={{color: '#1a1a1a', fontWeight: '600', fontSize: '0.9rem'}}>{skill.name}</span>
-                      </div>
-                      <span style={{color: '#c8956c', fontWeight: '700', fontSize: '0.85rem'}}>{skill.level}%</span>
-                    </div>
-                    <div style={{background: '#f5f0eb', borderRadius: '50px', height: '7px', overflow: 'hidden'}}>
-                      <motion.div
-                        initial={{width: 0}}
-                        whileInView={{width: `${skill.level}%`}}
-                        transition={{duration: 1, delay: skillIndex * 0.1, ease: 'easeOut'}}
-                        viewport={{once: true}}
-                        style={{height: '100%', background: 'linear-gradient(to right, #c8956c, #d4a574)', borderRadius: '50px'}}
-                      />
-                    </div>
+                  <motion.div
+                    key={skill.name}
+                    initial={{opacity: 0, scale: 0.8}}
+                    whileInView={{opacity: 1, scale: 1}}
+                    transition={{duration: 0.4, delay: skillIndex * 0.05}}
+                    viewport={{once: true}}
+                    style={{
+                      background: '#f5f0eb',
+                      color: '#1a1a1a',
+                      padding: '8px 14px',
+                      borderRadius: '50px',
+                      fontSize: '0.85rem',
+                      fontWeight: '600',
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '6px',
+                      border: '1px solid #e8ddd4'
+                    }}
+                  >
+                    <span style={{fontSize: '1rem'}}>{skill.icon}</span>
+                    <span>{skill.name}</span>
                   </motion.div>
                 ))}
               </div>
@@ -110,9 +127,9 @@ const Skills = () => {
         </div>
 
         <motion.div initial={{opacity: 0, y: 20}} whileInView={{opacity: 1, y: 0}} transition={{duration: 0.6}} viewport={{once: true}} style={{marginTop: '32px', textAlign: 'center'}}>
-          <p style={{color: '#888', fontSize: '0.9rem', marginBottom: '16px'}}>Also familiar with</p>
+          <p style={{color: '#888', fontSize: '0.9rem', marginBottom: '16px'}}>Also experienced with</p>
           <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px', justifyContent: 'center'}}>
-            {['Vite', 'npm', 'Figma', 'Chrome DevTools', 'Postman', 'GitHub Actions', 'Shadcn UI', 'Radix UI'].map((tool) => (
+            {['Vite', 'npm', 'Figma', 'Chrome DevTools', 'Postman', 'GitHub Actions', 'Radix UI', 'HTML5', 'CSS3'].map((tool) => (
               <span key={tool} style={{background: 'white', color: '#555', padding: '6px 16px', borderRadius: '50px', fontSize: '0.82rem', border: '1px solid #e8ddd4'}}>{tool}</span>
             ))}
           </div>

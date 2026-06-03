@@ -22,7 +22,7 @@ const Hero = () => {
 
           <div style={{fontSize: isMobile ? '2rem' : '2.8rem', fontWeight: 'bold', marginBottom: '20px', minHeight: '60px'}}>
             <TypeAnimation
-              sequence={['Full Stack Developer', 2000, 'SaaS Builder', 2000, 'React & Node.js Dev', 2000, 'Open to Remote', 2000]}
+              sequence={['I build web apps for startups', 2500, 'React · Next.js · TypeScript', 2500, 'Full-Stack Developer', 2500, 'Available Worldwide', 2500]}
               wrapper="span"
               speed={50}
               style={{color: '#1a1a1a'}}
@@ -31,7 +31,7 @@ const Hero = () => {
           </div>
 
           <motion.p initial={{opacity: 0}} animate={{opacity: 1}} transition={{delay: 0.5}} style={{color: '#555', fontSize: '0.95rem', marginBottom: '28px', lineHeight: 1.8, maxWidth: '520px'}}>
-            Full stack developer from Lagos, Nigeria — building SaaS tools and web applications end-to-end. React, Node.js, PostgreSQL, and MongoDB. Open to remote roles and freelance contracts worldwide.
+            Full-stack developer specializing in React, Next.js, TypeScript, and Node.js. I help startups ship modern, production-ready web applications — from SaaS dashboards to e-commerce platforms. Based in Lagos, available for remote roles and freelance contracts worldwide.
           </motion.p>
 
           <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{delay: 0.6}} style={{display: 'flex', gap: '10px', marginBottom: '28px'}}>
